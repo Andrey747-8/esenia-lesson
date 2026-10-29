@@ -1,136 +1,136 @@
 id: esenia
-title: "The Toy Soldier — пьеса для чтения по ролям"
-emoji: "🧸"
+title: 'Урок для Есении: The Toy Soldier'
+emoji: 🎭
 sections:
-  - type: dialog
-    title: "Пьеса, часть 1 — Narrator и Ted"
-    note: "Читай по ролям: сначала слушай, потом повторяй вслух с выражением!"
-    lines:
-      - speaker: Narrator
-        voice: narrator
-        en: "And now it is the end of the day."
-        ru: "И вот наступил конец дня."
-        translit: "Энд нау ит из зэ энд ов зэ дэй."
-      - speaker: Narrator
-        voice: narrator
-        en: "Time for the toys to come out and play."
-        ru: "Игрушкам пора выходить и играть."
-        translit: "Тайм фо зэ тойз ту кам аут энд плей."
-      - speaker: Ted
-        voice: ted
-        en: "Hello, I'm Ted. I'm a teddy bear."
-        ru: "Привет, я Тед. Я плюшевый мишка."
-        translit: "Хэллоу, Айм Тед. Айм э тэдди бэа."
-      - speaker: Ted
-        voice: ted
-        en: "Look, my friends are over there!"
-        ru: "Смотрите, мои друзья вон там!"
-        translit: "Лук, май фрэндз ар оувэ зэа!"
-      - speaker: Ted
-        voice: ted
-        en: "That's Dolly the doll and Jack in his box,"
-        ru: "Это кукла Долли и Джек в своей коробке,"
-        translit: "Зэтс Долли зэ дол энд Джэк ин хиз бокс,"
-      - speaker: Ted
-        voice: ted
-        en: "And Pip the puppet – one of William's socks!"
-        ru: "И кукла Пип — один из Уильямовых носков!"
-        translit: "Энд Пип зэ паппет – уан ов Уильямс сокс!"
-  - type: dialog
-    title: "Пьеса, часть 2 — Sam и Bella"
-    lines:
-      - speaker: Sam
-        voice: sam
-        en: "I'm Sam, the toy soldier. How do you do?"
-        ru: "Я Сэм, игрушечный солдатик. Как поживаете?"
-        translit: "Айм Сэм, зэ той соулджа. Хау ду ю ду?"
-      - speaker: Sam
-        voice: sam
-        en: "It's very nice to meet all of you!"
-        ru: "Очень приятно познакомиться со всеми вами!"
-        translit: "Итс вэри найс ту мит ол ов ю!"
-      - speaker: Bella
-        voice: bella
-        en: "And my name's Bella. Hello, everyone!"
-        ru: "А меня зовут Белла. Привет, все!"
-        translit: "Энд май нэймс Белла. Хэллоу, эвриуан!"
-      - speaker: Bella
-        voice: bella
-        en: "I like it here, it's lots of fun!"
-        ru: "Мне здесь нравится, здесь очень весело!"
-        translit: "Ай лайк ит хиа, итс лотс ов фан!"
-  - type: words
-    title: "Слова из пьесы (игрушки)"
-    lines:
-      - emoji: "🧸"
-        en: "teddy bear"
-        ru: "плюшевый мишка"
-        translit: "тэдди бэа"
-      - emoji: "💂"
-        en: "toy soldier"
-        ru: "игрушечный солдатик"
-        translit: "той соулджа"
-      - emoji: "🪆"
-        en: "doll"
-        ru: "кукла"
-        translit: "дол"
-      - emoji: "🎁"
-        en: "jack in his box"
-        ru: "чёртик из коробочки"
-        translit: "джэк ин хиз бокс"
-      - emoji: "🎭"
-        en: "puppet"
-        ru: "кукла-петрушка"
-        translit: "паппет"
-      - emoji: "🧦"
-        en: "sock"
-        ru: "носок"
-        translit: "сок"
-  - type: quiz
-    title: "Проверь себя: кто есть кто?"
-    questions:
-      - q: "Who is Ted?"
-        q_ru: "Кто такой Тед?"
-        options:
-          - text: "🧸 He's a teddy bear."
-            tts: "He is a teddy bear."
-            correct: true
-          - text: "💂 He's a toy soldier."
-            tts: "He is a toy soldier."
-            correct: false
-      - q: "Who is Sam?"
-        q_ru: "Кто такой Сэм?"
-        options:
-          - text: "🧸 He's a teddy bear."
-            tts: "He is a teddy bear."
-            correct: false
-          - text: "💂 He's the toy soldier."
-            tts: "He is the toy soldier."
-            correct: true
-      - q: "What is Pip the puppet?"
-        q_ru: "Что такое кукла Пип?"
-        options:
-          - text: "🪆 A doll."
-            tts: "It is a doll."
-            correct: false
-          - text: "🧦 One of William's socks."
-            tts: "It is one of William's socks."
-            correct: true
-      - q: "Whose friends are Dolly, Jack and Pip?"
-        q_ru: "Чьи друзья Долли, Джек и Пип?"
-        options:
-          - text: "🧸 Ted's friends."
-            tts: "They are Ted's friends."
-            correct: true
-          - text: "💂 Sam's friends."
-            tts: "They are Sam's friends."
-            correct: false
-      - q: "Who says: It's lots of fun!?"
-        q_ru: "Кто говорит: здесь очень весело?"
-        options:
-          - text: "👧 Bella."
-            tts: "It's Bella."
-            correct: true
-          - text: "🧸 Ted."
-            tts: "It's Ted."
-            correct: false
+- type: dialog
+  title: Пьеса, часть 1 — Narrator и Ted
+  note: 'Читай по ролям: сначала слушай, потом повторяй вслух с выражением!'
+  lines:
+  - speaker: Narrator
+    voice: narrator
+    en: And now it is the end of the day.
+    ru: И вот наступил конец дня.
+    translit: Энд нау ит из зэ энд ов зэ дэй.
+  - speaker: Narrator
+    voice: narrator
+    en: Time for the toys to come out and play.
+    ru: Игрушкам пора выходить и играть.
+    translit: Тайм фо зэ тойз ту кам аут энд плей.
+  - speaker: Ted
+    voice: ted
+    en: Hello, I'm Ted. I'm a teddy bear.
+    ru: Привет, я Тед. Я плюшевый мишка.
+    translit: Хэллоу, Айм Тед. Айм э тэдди бэа.
+  - speaker: Ted
+    voice: ted
+    en: Look, my friends are over there!
+    ru: Смотрите, мои друзья вон там!
+    translit: Лук, май фрэндз ар оувэ зэа!
+  - speaker: Ted
+    voice: ted
+    en: That's Dolly the doll and Jack in his box,
+    ru: Это кукла Долли и Джек в своей коробке,
+    translit: Зэтс Долли зэ дол энд Джэк ин хиз бокс,
+  - speaker: Ted
+    voice: ted
+    en: And Pip the puppet – one of William's socks!
+    ru: И кукла Пип — один из Уильямовых носков!
+    translit: Энд Пип зэ паппет – уан ов Уильямс сокс!
+- type: dialog
+  title: Пьеса, часть 2 — Sam и Bella
+  lines:
+  - speaker: Sam
+    voice: sam
+    en: I'm Sam, the toy soldier. How do you do?
+    ru: Я Сэм, игрушечный солдатик. Как поживаете?
+    translit: Айм Сэм, зэ той соулджа. Хау ду ю ду?
+  - speaker: Sam
+    voice: sam
+    en: It's very nice to meet all of you!
+    ru: Очень приятно познакомиться со всеми вами!
+    translit: Итс вэри найс ту мит ол ов ю!
+  - speaker: Bella
+    voice: bella
+    en: And my name's Bella. Hello, everyone!
+    ru: А меня зовут Белла. Привет, все!
+    translit: Энд май нэймс Белла. Хэллоу, эвриуан!
+  - speaker: Bella
+    voice: bella
+    en: I like it here, it's lots of fun!
+    ru: Мне здесь нравится, здесь очень весело!
+    translit: Ай лайк ит хиа, итс лотс ов фан!
+- type: words
+  title: Слова из пьесы (игрушки)
+  lines:
+  - emoji: 🧸
+    en: teddy bear
+    ru: плюшевый мишка
+    translit: тэдди бэа
+  - emoji: 💂
+    en: toy soldier
+    ru: игрушечный солдатик
+    translit: той соулджа
+  - emoji: 🪆
+    en: doll
+    ru: кукла
+    translit: дол
+  - emoji: 🎁
+    en: jack in his box
+    ru: чёртик из коробочки
+    translit: джэк ин хиз бокс
+  - emoji: 🎭
+    en: puppet
+    ru: кукла-петрушка
+    translit: паппет
+  - emoji: 🧦
+    en: sock
+    ru: носок
+    translit: сок
+- type: quiz
+  title: 'Проверь себя: кто есть кто?'
+  questions:
+  - q: Who is Ted?
+    q_ru: Кто такой Тед?
+    options:
+    - text: 🧸 He's a teddy bear.
+      tts: He is a teddy bear.
+      correct: true
+    - text: 💂 He's a toy soldier.
+      tts: He is a toy soldier.
+      correct: false
+  - q: Who is Sam?
+    q_ru: Кто такой Сэм?
+    options:
+    - text: 🧸 He's a teddy bear.
+      tts: He is a teddy bear.
+      correct: false
+    - text: 💂 He's the toy soldier.
+      tts: He is the toy soldier.
+      correct: true
+  - q: What is Pip the puppet?
+    q_ru: Что такое кукла Пип?
+    options:
+    - text: 🪆 A doll.
+      tts: It is a doll.
+      correct: false
+    - text: 🧦 One of William's socks.
+      tts: It is one of William's socks.
+      correct: true
+  - q: Whose friends are Dolly, Jack and Pip?
+    q_ru: Чьи друзья Долли, Джек и Пип?
+    options:
+    - text: 🧸 Ted's friends.
+      tts: They are Ted's friends.
+      correct: true
+    - text: 💂 Sam's friends.
+      tts: They are Sam's friends.
+      correct: false
+  - q: 'Who says: It''s lots of fun!?'
+    q_ru: 'Кто говорит: здесь очень весело?'
+    options:
+    - text: 👧 Bella.
+      tts: It's Bella.
+      correct: true
+    - text: 🧸 Ted.
+      tts: It's Ted.
+      correct: false

@@ -48,8 +48,8 @@ function playSeq(ids) {
     const el = document.getElementById(ids[i++]);
     if (!el) { next(); return; }
     el.currentTime = 0;
-    el.onended = () => setTimeout(next, 500);
-    el.play().catch(() => setTimeout(next, 500));
+    el.onended = () => setTimeout(next, 150);
+    el.play().catch(() => setTimeout(next, 150));
   })();
 }
 function answer(btn, correct, okId, stId) {

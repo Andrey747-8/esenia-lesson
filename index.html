@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="ru"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>The Toy Soldier — пьеса для чтения по ролям</title>
+<title>Урок для Есении: The Toy Soldier</title>
 <style>
 body { font-family: system-ui; max-width: 640px; margin: 20px auto; padding: 16px; background: #f5f5f5; }
 h1 { text-align: center; color: #2E7D32; } h2 { color: #37474f; }
@@ -21,7 +21,7 @@ button:active { transform: scale(.95); }
 .opt.bad { background: #ffcdd2; border-color: #e53935; }
 .note { color: #777; font-size: 14px; font-style: italic; }
 </style></head><body>
-<h1>🧸 The Toy Soldier — пьеса для чтения по ролям</h1>
+<h1>🎭 Урок для Есении: The Toy Soldier</h1>
 <h2>Пьеса, часть 1 — Narrator и Ted</h2>
 <p class="note">Читай по ролям: сначала слушай, потом повторяй вслух с выражением!</p>
 <div class="card"><span class="badge narrator">Narrator</span><div class="en">And now it is the end of the day.</div><div class="ru">И вот наступил конец дня.</div><div class="tr">Энд нау ит из зэ энд ов зэ дэй.</div><audio id="a_01_01" src="audio/01_01.mp3" preload="auto"></audio><audio id="s_01_01" src="audio/01_01_slow.mp3" preload="auto"></audio><br><button class="slow" onclick="playOne('s_01_01','st_01_01')">🐢 Медленно</button><button class="play" onclick="playOne('a_01_01','st_01_01')">🔊 Нормально</button><div class="status" id="st_01_01"></div></div>
@@ -69,8 +69,8 @@ function playSeq(ids) {
     const el = document.getElementById(ids[i++]);
     if (!el) { next(); return; }
     el.currentTime = 0;
-    el.onended = () => setTimeout(next, 500);
-    el.play().catch(() => setTimeout(next, 500));
+    el.onended = () => setTimeout(next, 150);
+    el.play().catch(() => setTimeout(next, 150));
   })();
 }
 function answer(btn, correct, okId, stId) {
